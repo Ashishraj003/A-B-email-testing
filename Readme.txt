@@ -18,8 +18,8 @@ This project is a web application for optimizing email engagement metrics throug
 
 ## Installation
 
-1. Clone the repository: `git clone https://github.com/your-username/A/B-Testing-platform.git`
-2. Navigate to the project directory: `cd A/B-Testing-platform`
+1. Clone the repository: `git clone https://github.com/Ashishraj003/A-B-email-testing.git`
+2. Navigate to the project directory: `cd A-B-Testing-platform`
 3. Install dependencies:
    - Frontend: `cd frontend && npm install`
    - Backend: `cd backend && npm install`
