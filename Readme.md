@@ -30,67 +30,65 @@ This project is a web application for optimizing email engagement metrics throug
    - Frontend: `cd frontend && npm start`
    - Backend: `cd backend && npm start`
   
-# Approach
+## Approach
 
-## 1. Project Structure
+### 1. Project Structure
 
 - Divided the project into two main parts: frontend and backend.
 - Used React.js for the frontend and Node.js with Express.js for the backend.
 - Used MongoDB as the database.
 
-## 2. Frontend Development
+### 2. Frontend Development
 
-### a. Setup
+**a. Setup**
 
 - Initialized a React application using `create-react-app`.
 
-### b. Component Structure
+**b. Component Structure**
 
 - Created key components:
   - `ExperimentList` to display all experiments.
   - `CreateExperiment` to create a new experiment.
   - `ExperimentDetail` to view and interact with a specific experiment.
 
-### c. Styling
+**c. Styling**
 
 - Used CSS for styling to enhance user experience.
 - Ensured a consistent and clean design.
 
-### d. API Integration
+**d. API Integration**
 
 - Used Axios to handle HTTP requests.
 - Communicate with the backend through RESTful APIs for CRUD operations and email sending.
 
-## 3. Backend Development
+### 3. Backend Development
 
-### a. Setup
+**a. Setup**
 
 - Initialized a Node.js project and installed necessary dependencies (Express, Mongoose, etc.).
 
-### b. Database Schema
+**b. Database Schema**
 
 - Defined a MongoDB schema for experiments using Mongoose.
 - Included fields for name, description, variants, and results.
 
-### c. API Routes
+**c. API Routes**
 
 - Created API routes for:
   - Creating, retrieving, updating, and deleting experiments.
   - Sending emails.
 
-### d. Email Integration
+**d. Email Integration**
 
 - Integrated with an email service provider (e.g., Mailgun).
 - Created backend logic to send emails and track engagement metrics.
 
-## 4. Styling
+### 4. Styling
 
 - Usde CSS to ensure the application is visually appealing and user-friendly.
 - Focused on responsiveness and accessibility.
 
-## 5. Testing and Deployment
-
-### a. Testing
+### 5. Testing 
 
 - Conducted thorough testing of all functionalities.
 - Ensured that CRUD operations, email sending, and data visualization work as expected.
