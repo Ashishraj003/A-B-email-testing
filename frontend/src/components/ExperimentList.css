@@ -1,0 +1,49 @@
+.experiment-list-container {
+  /* max-width: 800px; */
+
+  max-width: 900px; /* Increase max-width for a bigger container */
+  width: 90%; /* Set width to 90% for responsiveness */
+  margin: 0 auto;
+  padding: 20px;
+  background-color: #f9f9f9;
+  border-radius: 8px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+.experiment-list-container h1 {
+  margin-bottom: 20px;
+  color: #333;
+}
+
+.experiment-list-container ul {
+  list-style-type: none;
+  padding: 0;
+}
+
+.experiment-list-container li {
+  margin-bottom: 10px;
+  background-color: #fff;
+  padding: 10px;
+  border-radius: 4px;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+.experiment-list-container li a {
+  text-decoration: none;
+  color: #007bff;
+  font-weight: bold;
+  transition: color 0.3s ease;
+}
+
+.experiment-list-container li a:hover {
+  color: #0056b3;
+}
+body {
+  background-color: #f9f9f9; /* Light grey color */
+  color: #333; /* Text color for better contrast */
+  /* display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  margin: 8px; */
+}
